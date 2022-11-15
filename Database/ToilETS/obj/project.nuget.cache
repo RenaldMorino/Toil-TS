@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qAmHBQC0YO5e39tdXaIAfOR20w6J5YpVSY9mqqVoJdlikkpdG8GN96IlL+n3w/qAnJBads24TC3W3WnWlCseYw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\renau\\Documents\\GitHub\\ToilETS\\Database\\ToilETS\\ToilETS.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renau\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\renau\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
