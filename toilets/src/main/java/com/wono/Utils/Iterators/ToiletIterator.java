@@ -9,7 +9,7 @@ import com.wono.Models.Toilet;
  * The ToiletIterator class implements the Iterator interface and provides an implementation for the
  * hasNext() and next() methods
  */
-public class ToiletIterator implements Iterator {
+public class ToiletIterator implements Iterator<Toilet> {
   private ArrayList<Toilet> toilets;
   private int position = 0;
 
@@ -35,7 +35,7 @@ public class ToiletIterator implements Iterator {
    * @return The next object in the list.
    */
   @Override
-  public Object next() {
+  public Toilet next() {
     return toilets.get(position++);
   }
 }

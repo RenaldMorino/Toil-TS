@@ -8,7 +8,7 @@ import com.wono.Models.Urinal;
 /**
  * It's an iterator for the urinals list
  */
-public class UrinalIterator implements Iterator {
+public class UrinalIterator implements Iterator<Urinal> {
   private ArrayList<Urinal> urinals;
   private int position = 0;
 
@@ -34,7 +34,7 @@ public class UrinalIterator implements Iterator {
    * @return The next urinal in the list.
    */
   @Override
-  public Object next() {
+  public Urinal next() {
     return urinals.get(position++);
   }
 }

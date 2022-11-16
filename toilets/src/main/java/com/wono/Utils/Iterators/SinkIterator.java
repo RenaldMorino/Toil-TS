@@ -8,7 +8,7 @@ import com.wono.Models.Sink;
 /**
  * It implements the Iterator interface and returns the next sink in the list
  */
-public class SinkIterator implements Iterator {
+public class SinkIterator implements Iterator<Sink> {
   private ArrayList<Sink> sinks;
   private int position = 0;
 
@@ -34,7 +34,7 @@ public class SinkIterator implements Iterator {
    * @return The next sink in the list.
    */
   @Override
-  public Object next() {
+  public Sink next() {
     return sinks.get(position++);
   }
 }
